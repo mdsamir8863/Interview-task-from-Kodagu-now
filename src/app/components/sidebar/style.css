@@ -1,0 +1,36 @@
+.box:hover {
+    border-radius: .5rem !important;
+    transition: transform .2s;
+    transform: scale(1.1);
+    background-color: white;
+    border: none !important;
+}
+.bottom-icons-container svg:hover{
+    transition: transform .3s;
+    transform: scale(1.3);
+}
+.box:hover svg>*,
+.box:hover p,
+.miniSideBar svg>*:hover {
+    fill: #3361FF;
+    color: #3361FF !important;
+}
+
+
+
+.miniSideBar .svg-topIcons svg {
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: .5rem;
+}
+
+.miniSideBar .svg-topIcons svg:hover,
+.svg-BottomIcons img:hover {
+    transition: transform .5s;
+    transform: scale(1.2);
+    
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,72 @@
+/* DESKTOP */
+@media (min-width:1078px) {
+  .mb-show {
+    display: none !important;
+  }
+}
+
+
+/* NAVBAR DESK NONE CSS */
+@media (max-width:1080px) {
+
+  .nav-mb-none {
+    display: none;
+  }
+
+
+
+}
+
+
+/* Mobile */
+@media (max-width:786px) {
+
+  .sidebar-container,
+  .miniSideBar,
+  /* .miniSideBar svg,
+  .miniSideBar img, */
+  .mb-none {
+    display: none !important;
+  }
+
+ 
+  .content-box-container{
+    width: 100% !important;
+  }
+  .miniSideBar {
+    display: none !important;
+  }
+}
+
+
+
+
+/* @media (min-width:960px) {
+
+  .nav-desk-none {
+    display: none !important;
+    background-color: rosybrown;
+  }
+
+} */
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 600px) and (max-width: 990px) {
+
+
+
+  /* .grid {
+    grid-template-columns: repeat(2, 50%);
+  } */
+}
+
+
+
+/* @keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+} */
