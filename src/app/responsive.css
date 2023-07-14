@@ -25,21 +25,19 @@
   .miniSideBar,
   /* .miniSideBar svg,
   .miniSideBar img, */
-  .mb-none {
+  .mb-none,
+  .second-content {
     display: none !important;
   }
 
- 
-  .content-box-container{
+
+  .first-content {
     width: 100% !important;
   }
+
   .miniSideBar {
     display: none !important;
   }
-
-.content-box-container{
-  width: 35% !important;
-}
 
 }
 

@@ -9,21 +9,16 @@ import LastBox from "./components/lastbox/page";
 
 export default function Home() {
   return (
-    <main className="d-flex">
+    <main className="d-flex justify-content-between">
       <Sidebar />
       <div className="contents container border rounded ms-3 me-3">
         <MainNavBar />
-        <div className="d-flex">
-
-        <div className="content-box-wrapper d-flex w-50">
+        <div className="d-flex ">
           <ContentOne />
           <ContentTwo />
-          <LastBox />
-        </div>
-        <div className="contentThree d-flex w-50">
           <ContentThree />
           <ContentFour />
-        </div>
+          <LastBox />
         </div>
       </div>
     </main>

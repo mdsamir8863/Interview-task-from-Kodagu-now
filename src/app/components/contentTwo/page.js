@@ -9,7 +9,7 @@ import Avatar3 from "../../../../public/assets/icons/Avatar3.svg";
 import '../../responsive.css'
 const ContentTwo = () => {
   return (
-    <div className="container content-box-container mb-none">
+    <div className="container content-box-container second-content">
       <div className="content-top mt-4 mb-4">
         <div className="toDo bg-white rounded D-flex justify-content-evenly border-start border-4 border-warning">
           <span className="color-4D5-12">IN WORK</span>
