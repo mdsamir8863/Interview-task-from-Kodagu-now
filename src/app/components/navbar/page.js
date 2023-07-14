@@ -12,9 +12,8 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <nav className=" navbar navbar-expand nav-mb-none pt-0">
-        <ul className="list-unstyled d-flex flex-row align-items-center justify-content-around  border border-2 w-100 nav-mb-none">
-          {/* <li> */}
+      <nav className=" navbar navbar-expand nav-mb-none pt-0 ">
+        <ul className="list-unstyled d-flex flex-row align-items-center justify-content-around  border border-2 w-100 nav-mb-none pt-2 pb-2">
           <Image
             className="btn w-auto"
             src={navIcon}
@@ -22,7 +21,6 @@ const Navbar = () => {
             width={50}
             height={50}
           />
-          {/* </li> */}
           <li>
             <Link href="/" className=" text-decoration-none color-4D5-18">
               Constructor
@@ -68,7 +66,6 @@ const Navbar = () => {
               Contacts
             </Link>
           </li>
-          {/* <li> */}
           <Image
             className="btn w-auto"
             src={tots}
@@ -76,11 +73,9 @@ const Navbar = () => {
             width={50}
             height={50}
           />
-          {/* </li> */}
 
           <Search />
 
-          {/* <li> */}
           <Image
             className="btn w-auto"
             src={account_circle}
@@ -88,10 +83,8 @@ const Navbar = () => {
             width={50}
             height={50}
           />
-          {/* </li> */}
 
           <li>Clayton Santos</li>
-          {/* <li> */}
           <Image
             className=" rounded rounded-circle btn w-auto"
             src={notification}
@@ -99,8 +92,6 @@ const Navbar = () => {
             width={50}
             height={50}
           />
-          {/* </li> */}
-          {/* <li> */}
           <Image
             className=" rounded rounded-circle btn w-auto"
             src={crossIcon}
@@ -108,11 +99,8 @@ const Navbar = () => {
             width={50}
             height={50}
           />
-          {/* </li> */}
         </ul>
       </nav>
-
-
 
       <div className="mb-show pt-0  navbar D-flex flex-row justify-content-between">
         <div className=" mb-show">

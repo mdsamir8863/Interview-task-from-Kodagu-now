@@ -6,22 +6,24 @@ import ContentTwo from "./components/contentTwo/page";
 import ContentThree from "./components/contentthree/page";
 import ContentFour from "./components/contentfour/page";
 import LastBox from "./components/lastbox/page";
-import Avatar from "../../public/assets/icons/Avatar.svg";
 
 export default function Home() {
   return (
     <main className="d-flex">
       <Sidebar />
-      <div className="contents container border ms-3 me-3">
+      <div className="contents container border rounded ms-3 me-3">
         <MainNavBar />
-        <div className="content-box-wrapper d-flex">
+        <div className="d-flex">
+
+        <div className="content-box-wrapper d-flex w-50">
           <ContentOne />
           <ContentTwo />
-          <div className="contentThree d-flex">
-            <ContentThree />
-            <ContentFour />
-            <LastBox />
-          </div>
+          <LastBox />
+        </div>
+        <div className="contentThree d-flex w-50">
+          <ContentThree />
+          <ContentFour />
+        </div>
         </div>
       </div>
     </main>

@@ -6,10 +6,10 @@ import Avatar from "../../../../public/assets/icons/Avatar.svg";
 import Avatar2 from "../../../../public/assets/icons/Avatar2.svg";
 import Avatar1 from "../../../../public/assets/icons/Avatar1.svg";
 import Avatar3 from "../../../../public/assets/icons/Avatar3.svg";
-
+import '../../responsive.css'
 const ContentTwo = () => {
   return (
-    <div className="container content-box-container  mb-none w-25">
+    <div className="container content-box-container mb-none">
       <div className="content-top mt-4 mb-4">
         <div className="toDo bg-white rounded D-flex justify-content-evenly border-start border-4 border-warning">
           <span className="color-4D5-12">IN WORK</span>

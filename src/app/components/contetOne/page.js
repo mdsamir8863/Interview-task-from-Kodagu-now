@@ -9,7 +9,7 @@ import Avatar3 from "../../../../public/assets/icons/Avatar3.svg";
 import '../../responsive.css'
 const ContentOne = () => {
   return (
-    <div className="container content-box-container w-25">
+    <div className="container content-box-container">
       <div className="content-top mt-4 mb-4">
         <div className="toDo bg-white rounded D-flex justify-content-evenly border-start border-4 border-primary">
           <span className="color-4D5-12"> TO DO</span>
@@ -110,11 +110,11 @@ const ContentOne = () => {
           <div className="color-ADB-10">
             <p className="D-flex justify-content-between ">
               Space Tasks 2
-              <div className="">
+              {/* <div className=""> */}
               <Image src={Avatar1} alt="leaf Image" />
               <Image src={Avatar} alt="leaf Image" />
 
-              </div>
+              {/* </div> */}
             </p>
           </div>
           <p className="color-6B7-12 mb-0">Make Money Online Through</p>
@@ -125,12 +125,12 @@ const ContentOne = () => {
           <div className="color-ADB-10">
             <p className="D-flex justify-content-between">
               Space Tasks 2
-              <div >
+              <span >
               <Image src={Avatar1} alt="leaf Image" />
               <Image src={Avatar} alt="leaf Image" />
               <Image src={Avatar2} alt="leaf Image" />
 
-              </div>
+              </span>
             </p>
           </div>
           <p className="color-6B7-12 mb-0">Getting Free Publicity</p>

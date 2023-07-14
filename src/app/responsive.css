@@ -36,6 +36,11 @@
   .miniSideBar {
     display: none !important;
   }
+
+.content-box-container{
+  width: 35% !important;
+}
+
 }
 
 
