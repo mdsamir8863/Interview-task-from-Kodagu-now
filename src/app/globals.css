@@ -95,3 +95,6 @@ body{
 main{
     height: 10% !important;
 }
+.toDo{
+padding: .5rem 0;
+}

@@ -13,7 +13,7 @@ const ContentTwo = () => {
       <div className="content-top mt-4 mb-4">
         <div className="toDo bg-white rounded D-flex justify-content-evenly border-start border-4 border-warning">
           <span className="color-4D5-12">IN WORK</span>
-          <span className="border border-2 rounded rounded-circle p-1">55</span>
+          <span className="border border-2 rounded-circle ps-1 pe-1">65</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"

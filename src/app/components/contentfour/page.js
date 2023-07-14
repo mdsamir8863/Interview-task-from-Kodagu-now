@@ -7,8 +7,8 @@ const ContentFour = () => {
               <div className="content-top mt-4 mb-4">
                 <div className="toDo bg-white rounded D-flex justify-content-evenly border-start border-4 border-danger">
                   <span className="color-4D5-12">DONE</span>
-                  <span className="border border-2 rounded rounded-circle p-1">
-                    5
+                  <span className="border border-2 rounded-circle ps-1 pe-1">
+                    15
                   </span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
