@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Sidebar from "./components/sidebar/Sidebar";
 import MainNavBar from "./components/mianNavbar/MainPageNavBar";
-import ContentOne from "./components/contetOne/content1";
-import ContentTwo from "./components/contentTwo/content2";
-import ContentThree from "./components/contentthree/content3";
-import ContentFour from "./components/contentfour/content4";
+import ContentOne from "./components/contetOne/Content1";
+import ContentTwo from "./components/contentTwo/Content2";
+import ContentThree from "./components/contentthree/Content3";
+import ContentFour from "./components/contentfour/Content4";
 import LastBox from "./components/lastbox/Lastbox";
 import "./globals.css";
 import "./responsive.css";
