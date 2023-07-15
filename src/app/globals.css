@@ -92,9 +92,7 @@ body{
     align-items: center;
 }
 
-main{
-    height: 10% !important;
-}
+
 .toDo{
 padding: .5rem 0;
 }

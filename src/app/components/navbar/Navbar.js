@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import Search from "../searchbox/page";
+import Search from "../searchbox/SearchBox";
 import Image from "next/image";
 import navIcon from "../../../../public/assets/icons/nav-icon.svg";
 import tots from "../../../../public/assets/icons/tots-icon.svg";

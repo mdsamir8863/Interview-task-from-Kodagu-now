@@ -1,12 +1,13 @@
 import Image from "next/image";
-import Sidebar from "./components/sidebar/page";
-import MainNavBar from "./components/mianNavbar/page";
-import ContentOne from "./components/contetOne/page";
-import ContentTwo from "./components/contentTwo/page";
-import ContentThree from "./components/contentthree/page";
-import ContentFour from "./components/contentfour/page";
-import LastBox from "./components/lastbox/page";
-
+import Sidebar from "./components/sidebar/Sidebar";
+import MainNavBar from "./components/mianNavbar/MainPageNavBar";
+import ContentOne from "./components/contetOne/content1";
+import ContentTwo from "./components/contentTwo/content2";
+import ContentThree from "./components/contentthree/content3";
+import ContentFour from "./components/contentfour/content4";
+import LastBox from "./components/lastbox/Lastbox";
+import "./globals.css";
+import "./responsive.css";
 export default function Home() {
   return (
     <main className="d-flex justify-content-between">

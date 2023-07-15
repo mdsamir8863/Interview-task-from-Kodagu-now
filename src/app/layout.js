@@ -1,18 +1,9 @@
-"use client"
 import "./globals.css";
 import "./responsive.css";
 import { Roboto } from "next/font/google";
-import Navbar from "./components/navbar/page";
-import 'bootstrap/dist/css/bootstrap.css';
 
-// import dynamic from 'next/dynamic';
-
-// const DynamicBootstrap = dynamic(
-//   () => require('bootstrap/dist/js/bootstrap.min.js'),
-//   { ssr: false }
-// );
-
-
+import Navbar from "./components/navbar/Navbar";
+import "bootstrap/dist/css/bootstrap.css";
 
 const roboto = Roboto({
   weight: ["300", "400", "500", "700", "900"],
